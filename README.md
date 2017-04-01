@@ -1,14 +1,22 @@
 # devnotes
-Just my notes about software development
+Just my notes about software development.
 
 ## Swift
-My Swift stuff.
+For starters, search for `swift awesome github` on Google for some cool stuff. There are more than one matching result, so I'll list the ones I find most interesting here later on.
 
 ### RxSwift
-My RxSwift stuff.
+For starters, check this stuff:
+* https://github.com/LeoMobileDeveloper/awesome-rxswift
 
 ## ReactNative
-My ReactNative stuff.
+For starters:
+* https://github.com/jondot/awesome-react-native
 
 ## Godot Engine
-My Godot Engine stuff.
+For starters, check out these awesome indexes:
+* https://github.com/Calinou/awesome-godot
+* https://github.com/trending/gdscript
+
+## Game Development
+* https://github.com/mbrukman/awesome-gamedev
+* https://github.com/leereilly/games

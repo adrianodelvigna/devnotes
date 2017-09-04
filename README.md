@@ -8,6 +8,9 @@ For starters, search for `swift awesome github` on Google for some cool stuff. T
 For starters, check this stuff:
 * https://github.com/LeoMobileDeveloper/awesome-rxswift
 
+## Xamarin
+* My [Xamarin](./Xamarin.md) dev notes.
+
 ## ReactNative
 For starters:
 * https://github.com/jondot/awesome-react-native

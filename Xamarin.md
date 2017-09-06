@@ -45,7 +45,7 @@ Source: [Xamarin Forum Comment](https://forums.xamarin.com/discussion/comment/14
 
 ### Make Android button labels not all-CAPS
 
-Add the following to the styles.xml file, inside the Android project. It works for Xamarin.Android and Xamarin.Forms as well.
+Add the following to the **styles.xml** file, inside the Android project. It works for Xamarin.Android and Xamarin.Forms as well.
 
 ```xml
 <style name="MyTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
@@ -59,3 +59,35 @@ Add the following to the styles.xml file, inside the Android project. It works f
 ```
 
 Source: [Xamarin Forum Comment](https://forums.xamarin.com/discussion/comment/114645/#Comment_114645)
+
+### Make Android buttons' background and border color transparent
+
+```xml
+<Button Image="Images/logout.png" Clicked="LogoutButton_OnClicked"
+               HorizontalOptions="End"
+                BorderColor="Transparent"
+                BackgroundColor="Transparent"
+                Scale="0.5"/>
+```
+
+Source: [Xamarin Forum Comment](https://forums.xamarin.com/discussion/63850/android-button-how-to-make-transparent-background-and-no-border)
+
+### Remove the shadow around the Android button
+
+Add the following to the **styles.xml** file, inside the Android project. It works for Xamarin.Android and Xamarin.Forms as well.
+
+```xml
+	<style name="MyTheme" parent="MyTheme.Base">
+		<!--Reference: https://forums.xamarin.com/discussion/comment/114645/#Comment_114645-->
+		<item name="android:textAppearanceButton">@style/NoCaps.Material.Button</item>
+		<!--Reference: https://forums.xamarin.com/discussion/comment/215760/#Comment_215760-->
+		<item name="android:buttonStyle">@style/NoShadowButton</item>
+	</style>
+
+    <!--Reference: https://forums.xamarin.com/discussion/comment/215760/#Comment_215760-->
+	<style name="NoShadowButton" parent="android:style/Widget.Button">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+```
+
+Source: [Xamarin Forum Comment](https://forums.xamarin.com/discussion/comment/215760/#Comment_215760)
